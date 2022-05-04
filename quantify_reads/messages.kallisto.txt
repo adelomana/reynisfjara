@@ -1,3 +1,26 @@
+2022-05-04 08:55:58 	 about to quantify a4776_48h_1
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_48h_1 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R2_clean.fastq.gz
+
+2022-05-04 08:55:58 	 about to quantify a4776_48h_2
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_48h_2 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R2_clean.fastq.gz
+
+2022-05-04 08:55:58 	 about to quantify a4776_48h_3
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_48h_3 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R2_clean.fastq.gz
+
+2022-05-04 08:55:58 	 about to quantify a4776_72h_1
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_72h_1 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R2_clean.fastq.gz
+
+2022-05-04 08:55:58 	 about to quantify a4776_72h_2
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_72h_2 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R2_clean.fastq.gz
+
+2022-05-04 08:56:26 	 about to quantify a4776_72h_3
+
+time kallisto quant -i /home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx -o /home/adrian/projects/romain_nova/results/kallisto/kallisto.20/a4776_72h_3 --bias -t 100 -b 20  /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R2_clean.fastq.gz
 
 [quant] fragment length distribution will be estimated from the data
 [index] k-mer length: 31
