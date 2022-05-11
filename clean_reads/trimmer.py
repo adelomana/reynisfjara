@@ -42,8 +42,8 @@ def trimmomatic_caller(sample):
     return None
 
 # 0. user defined variables
-raw_fastq_dir = '/home/adrian/projects/romain_nova/data/rawdata/'
-clean_fastq_dir = '/home/adrian/projects/romain_nova/data/clean_data/'
+raw_fastq_dir = '/home/adrian/projects/reynisfjara/data/raw_fastq/'
+clean_fastq_dir = '/home/adrian/projects/reynisfjara/data/clean_fastq/'
 trimmomatic_path = '/home/adrian/software/Trimmomatic-0.39/'
 adapter_file = trimmomatic_path + 'adapters/TruSeq3-PE-2.fa'
 number_threads = 20

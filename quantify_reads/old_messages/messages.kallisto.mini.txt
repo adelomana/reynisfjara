@@ -11,7 +11,6 @@
 [quant] processed 22,825,019 reads, 20,632,793 reads pseudoaligned
 [quant] processed 30,044,012 reads, 27,259,347 reads pseudoaligned
 [quant] processed 29,009,557 reads, 25,999,372 reads pseudoaligned
-[quant] processed 30,505,564 reads, 27,671,627 reads pseudoaligned
 [quant] processed 21,649,503 reads, 19,609,658 reads pseudoaligned
 [quant] processed 31,876,122 reads, 28,375,942 reads pseudoaligned
 [quant] processed 34,917,154 reads, 31,394,364 reads pseudoaligned

@@ -44,10 +44,10 @@ def printt(label):
 #
 # 0. user defined variables
 #
-clean_fastq_dir = '/home/adrian/projects/romain_nova/data/clean_data/'
+clean_fastq_dir = '/home/adrian/projects/reynisfjara/data/clean_fastq/'
 boots = 100
 threads = 20
-results_dir = '/home/adrian/projects/romain_nova/results/kallisto/kallisto.{}/'.format(boots)
+results_dir = '/home/adrian/projects/reynisfjara/results/kallisto/kallisto.{}/'.format(boots)
 transcriptome_index = '/home/adrian/software/kallisto/ensembl_v96/mus/transcriptome.idx'
 
 strand_flag = '--rf-stranded'       # [quant] processed 26,091,452 reads, 11,790,116 reads pseudoaligned

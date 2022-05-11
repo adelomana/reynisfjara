@@ -1,5 +1,5 @@
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -8,10 +8,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 26702991 Both Surviving: 26091452 (97.71%) Forward Only Surviving: 416945 (1.56%) Reverse Only Surviving: 154858 (0.58%) Dropped: 39736 (0.15%)
 TrimmomaticPE: Completed successfully
-1353.80user 11.29system 7:06.06elapsed 320%CPU (0avgtext+0avgdata 2196476maxresident)k
-717472inputs+6970424outputs (99major+554550minor)pagefaults 0swaps
+1345.88user 11.59system 6:59.44elapsed 323%CPU (0avgtext+0avgdata 1763948maxresident)k
+8010968inputs+6970424outputs (131major+444022minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -20,10 +20,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 28289323 Both Surviving: 27657113 (97.77%) Forward Only Surviving: 430907 (1.52%) Reverse Only Surviving: 160755 (0.57%) Dropped: 40548 (0.14%)
 TrimmomaticPE: Completed successfully
-1428.00user 12.44system 7:19.46elapsed 327%CPU (0avgtext+0avgdata 2401200maxresident)k
-8447536inputs+7371104outputs (64major+618543minor)pagefaults 0swaps
+1479.67user 12.37system 7:25.87elapsed 334%CPU (0avgtext+0avgdata 1590300maxresident)k
+8447528inputs+7371104outputs (64major+422643minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -32,10 +32,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 35982427 Both Surviving: 35310873 (98.13%) Forward Only Surviving: 476875 (1.33%) Reverse Only Surviving: 168479 (0.47%) Dropped: 26200 (0.07%)
 TrimmomaticPE: Completed successfully
-1886.56user 15.21system 9:33.76elapsed 331%CPU (0avgtext+0avgdata 1876588maxresident)k
-10816856inputs+9445536outputs (112major+476672minor)pagefaults 0swaps
+1838.09user 15.40system 9:28.00elapsed 326%CPU (0avgtext+0avgdata 1925352maxresident)k
+10807848inputs+9445616outputs (91major+484607minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -44,10 +44,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 29204126 Both Surviving: 28441040 (97.39%) Forward Only Surviving: 549267 (1.88%) Reverse Only Surviving: 159624 (0.55%) Dropped: 54195 (0.19%)
 TrimmomaticPE: Completed successfully
-1498.60user 12.11system 7:56.49elapsed 317%CPU (0avgtext+0avgdata 1579056maxresident)k
-8834480inputs+7680848outputs (72major+404377minor)pagefaults 0swaps
+1488.60user 12.67system 7:43.07elapsed 324%CPU (0avgtext+0avgdata 2351464maxresident)k
+8834480inputs+7680792outputs (69major+610254minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -56,10 +56,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 23463727 Both Surviving: 22941519 (97.77%) Forward Only Surviving: 351929 (1.50%) Reverse Only Surviving: 139478 (0.59%) Dropped: 30801 (0.13%)
 TrimmomaticPE: Completed successfully
-1190.60user 9.68system 6:08.66elapsed 325%CPU (0avgtext+0avgdata 2011748maxresident)k
-6663992inputs+6108520outputs (56major+511502minor)pagefaults 0swaps
+1196.55user 10.43system 6:04.83elapsed 330%CPU (0avgtext+0avgdata 2056648maxresident)k
+6998152inputs+6108608outputs (64major+523609minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -68,10 +68,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 25640858 Both Surviving: 25024600 (97.60%) Forward Only Surviving: 428667 (1.67%) Reverse Only Surviving: 145839 (0.57%) Dropped: 41752 (0.16%)
 TrimmomaticPE: Completed successfully
-1266.62user 11.06system 6:38.36elapsed 320%CPU (0avgtext+0avgdata 2688304maxresident)k
-7693960inputs+6704848outputs (56major+692165minor)pagefaults 0swaps
+1271.94user 11.02system 6:41.25elapsed 319%CPU (0avgtext+0avgdata 2493272maxresident)k
+7693768inputs+6705000outputs (66major+653107minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -80,10 +80,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 29596496 Both Surviving: 28848108 (97.47%) Forward Only Surviving: 526537 (1.78%) Reverse Only Surviving: 169366 (0.57%) Dropped: 52485 (0.18%)
 TrimmomaticPE: Completed successfully
-1505.03user 11.95system 7:51.65elapsed 321%CPU (0avgtext+0avgdata 2206288maxresident)k
-8973736inputs+7787464outputs (69major+556707minor)pagefaults 0swaps
+1481.96user 12.78system 7:48.94elapsed 318%CPU (0avgtext+0avgdata 1811476maxresident)k
+8981656inputs+7787464outputs (100major+459019minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -92,10 +92,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 32153874 Both Surviving: 31348771 (97.50%) Forward Only Surviving: 569825 (1.77%) Reverse Only Surviving: 184301 (0.57%) Dropped: 50977 (0.16%)
 TrimmomaticPE: Completed successfully
-1633.60user 13.09system 8:31.16elapsed 322%CPU (0avgtext+0avgdata 2470052maxresident)k
-9692848inputs+8457560outputs (76major+622861minor)pagefaults 0swaps
+1593.98user 14.36system 8:27.73elapsed 316%CPU (0avgtext+0avgdata 2405784maxresident)k
+9732368inputs+8457560outputs (76major+610911minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -104,58 +104,58 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 30771900 Both Surviving: 30050361 (97.66%) Forward Only Surviving: 493983 (1.61%) Reverse Only Surviving: 184677 (0.60%) Dropped: 42879 (0.14%)
 TrimmomaticPE: Completed successfully
-1506.87user 12.88system 7:58.74elapsed 317%CPU (0avgtext+0avgdata 2465076maxresident)k
-9144512inputs+8047576outputs (69major+619870minor)pagefaults 0swaps
+1600.83user 13.34system 8:14.89elapsed 326%CPU (0avgtext+0avgdata 1593980maxresident)k
+9253192inputs+8047632outputs (87major+408302minor)pagefaults 0swaps
 ['a3922_0h_1', 'a3922_0h_2', 'a3922_0h_3', 'a3922_48h_1', 'a3922_48h_2', 'a3922_48h_3', 'a3922_72h_1', 'a3922_72h_2', 'a3922_72h_3', 'a4774_0h_1', 'a4774_0h_2', 'a4774_0h_3', 'a4774_48h_1', 'a4774_48h_2', 'a4774_48h_3', 'a4774_72h_1', 'a4774_72h_2', 'a4775_0h_1', 'a4775_0h_2', 'a4775_0h_3', 'a4775_48h_1', 'a4775_48h_2', 'a4775_48h_3', 'a4775_72h_1', 'a4775_72h_2', 'a4775_72h_3', 'a4776_0h_1', 'a4776_0h_2', 'a4776_0h_3', 'a4776_48h_1', 'a4776_48h_2', 'a4776_48h_3', 'a4776_72h_1', 'a4776_72h_2', 'a4776_72h_3'] 35
-2022-05-03 22:04:35 	 about to clean a3922_0h_1
+2022-05-10 10:55:26 	 about to clean a3922_0h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_1/a3922_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 22:11:41 	 about to clean a3922_0h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_2/a3922_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_1/a3922_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 22:19:01 	 about to clean a3922_0h_3
+2022-05-10 11:02:26 	 about to clean a3922_0h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_0h_3/a3922_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 22:28:34 	 about to clean a3922_48h_1
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_1/a3922_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_2/a3922_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 22:36:31 	 about to clean a3922_48h_2
+2022-05-10 11:09:52 	 about to clean a3922_0h_3
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_2/a3922_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 22:42:39 	 about to clean a3922_48h_3
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_48h_3/a3922_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_0h_3/a3922_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 22:49:18 	 about to clean a3922_72h_1
+2022-05-10 11:19:20 	 about to clean a3922_48h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_1/a3922_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 22:57:09 	 about to clean a3922_72h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_2/a3922_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_1/a3922_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 23:05:41 	 about to clean a3922_72h_3
+2022-05-10 11:27:03 	 about to clean a3922_48h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a3922_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a3922_72h_3/a3922_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_2/a3922_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 23:13:39 	 about to clean a4774_0h_1
+2022-05-10 11:33:07 	 about to clean a3922_48h_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_48h_3/a3922_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 11:39:49 	 about to clean a3922_72h_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_1/a3922_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 11:47:38 	 about to clean a3922_72h_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_2/a3922_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 11:56:05 	 about to clean a3922_72h_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a3922_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a3922_72h_3/a3922_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 12:04:20 	 about to clean a4774_0h_1
 
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -164,10 +164,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 24133786 Both Surviving: 23560411 (97.62%) Forward Only Surviving: 399458 (1.66%) Reverse Only Surviving: 135066 (0.56%) Dropped: 38851 (0.16%)
 TrimmomaticPE: Completed successfully
-1213.36user 9.75system 6:18.25elapsed 323%CPU (0avgtext+0avgdata 2060964maxresident)k
-7248800inputs+6322016outputs (60major+523716minor)pagefaults 0swaps
+1199.04user 10.79system 6:17.43elapsed 320%CPU (0avgtext+0avgdata 1861400maxresident)k
+7252272inputs+6321960outputs (56major+472052minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -176,10 +176,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 23386783 Both Surviving: 22825019 (97.60%) Forward Only Surviving: 387816 (1.66%) Reverse Only Surviving: 135029 (0.58%) Dropped: 38919 (0.17%)
 TrimmomaticPE: Completed successfully
-1195.89user 9.69system 6:06.70elapsed 328%CPU (0avgtext+0avgdata 1868120maxresident)k
-7023984inputs+6115496outputs (56major+474637minor)pagefaults 0swaps
+1190.56user 10.45system 6:10.03elapsed 324%CPU (0avgtext+0avgdata 2676736maxresident)k
+7023984inputs+6115552outputs (60major+687896minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -188,10 +188,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 30740168 Both Surviving: 30044012 (97.74%) Forward Only Surviving: 462736 (1.51%) Reverse Only Surviving: 184865 (0.60%) Dropped: 48555 (0.16%)
 TrimmomaticPE: Completed successfully
-1508.11user 12.93system 7:52.31elapsed 322%CPU (0avgtext+0avgdata 2563404maxresident)k
-9158664inputs+8000088outputs (68major+656707minor)pagefaults 0swaps
+1552.03user 13.29system 7:55.28elapsed 329%CPU (0avgtext+0avgdata 1871556maxresident)k
+9160304inputs+8000144outputs (76major+476442minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -200,10 +200,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 29695124 Both Surviving: 29009557 (97.69%) Forward Only Surviving: 472410 (1.59%) Reverse Only Surviving: 167229 (0.56%) Dropped: 45928 (0.15%)
 TrimmomaticPE: Completed successfully
-1457.39user 11.86system 7:38.70elapsed 320%CPU (0avgtext+0avgdata 2207224maxresident)k
-8881312inputs+7739336outputs (68major+571767minor)pagefaults 0swaps
+1475.76user 12.65system 7:45.62elapsed 319%CPU (0avgtext+0avgdata 2288984maxresident)k
+8881312inputs+7739456outputs (76major+592663minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -212,10 +212,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 31233836 Both Surviving: 30505564 (97.67%) Forward Only Surviving: 501876 (1.61%) Reverse Only Surviving: 176233 (0.56%) Dropped: 50163 (0.16%)
 TrimmomaticPE: Completed successfully
-1539.10user 12.67system 8:06.17elapsed 319%CPU (0avgtext+0avgdata 1924364maxresident)k
-9367376inputs+8175576outputs (78major+485435minor)pagefaults 0swaps
+1542.84user 13.38system 8:08.23elapsed 318%CPU (0avgtext+0avgdata 2238476maxresident)k
+9367376inputs+8175624outputs (78major+565954minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -224,10 +224,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 22271763 Both Surviving: 21649503 (97.21%) Forward Only Surviving: 459475 (2.06%) Reverse Only Surviving: 118664 (0.53%) Dropped: 44121 (0.20%)
 TrimmomaticPE: Completed successfully
-1117.40user 9.63system 6:03.27elapsed 310%CPU (0avgtext+0avgdata 2194300maxresident)k
-6796768inputs+5892456outputs (60major+563705minor)pagefaults 0swaps
+1111.08user 9.69system 5:55.54elapsed 315%CPU (0avgtext+0avgdata 2308824maxresident)k
+6796768inputs+5892392outputs (56major+592399minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -236,10 +236,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 32676877 Both Surviving: 31876122 (97.55%) Forward Only Surviving: 554556 (1.70%) Reverse Only Surviving: 195669 (0.60%) Dropped: 50530 (0.15%)
 TrimmomaticPE: Completed successfully
-1608.73user 13.24system 8:31.10elapsed 317%CPU (0avgtext+0avgdata 2212388maxresident)k
-9874456inputs+8570360outputs (72major+571452minor)pagefaults 0swaps
+1607.33user 14.24system 8:33.96elapsed 315%CPU (0avgtext+0avgdata 2826544maxresident)k
+9874456inputs+8570440outputs (76major+719031minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -248,10 +248,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 35851996 Both Surviving: 34917154 (97.39%) Forward Only Surviving: 679457 (1.90%) Reverse Only Surviving: 197835 (0.55%) Dropped: 57550 (0.16%)
 TrimmomaticPE: Completed successfully
-1761.76user 14.64system 9:22.58elapsed 315%CPU (0avgtext+0avgdata 2392500maxresident)k
-10830000inputs+9405864outputs (80major+612829minor)pagefaults 0swaps
+1795.60user 14.97system 9:28.50elapsed 318%CPU (0avgtext+0avgdata 2204176maxresident)k
+10830840inputs+9405864outputs (80major+566185minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -260,10 +260,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 20968064 Both Surviving: 20436974 (97.47%) Forward Only Surviving: 370361 (1.77%) Reverse Only Surviving: 121343 (0.58%) Dropped: 39386 (0.19%)
 TrimmomaticPE: Completed successfully
-1064.05user 8.98system 5:32.08elapsed 323%CPU (0avgtext+0avgdata 2652032maxresident)k
-6325168inputs+5491312outputs (48major+685085minor)pagefaults 0swaps
+1041.79user 9.38system 5:31.31elapsed 317%CPU (0avgtext+0avgdata 2132836maxresident)k
+6325168inputs+5491384outputs (53major+552260minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -272,60 +272,60 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 34000603 Both Surviving: 33268662 (97.85%) Forward Only Surviving: 480486 (1.41%) Reverse Only Surviving: 206098 (0.61%) Dropped: 45357 (0.13%)
 TrimmomaticPE: Completed successfully
-1672.81user 14.41system 8:42.82elapsed 322%CPU (0avgtext+0avgdata 2276400maxresident)k
-10082536inputs+8817016outputs (78major+584495minor)pagefaults 0swaps
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_1/a4774_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+1717.33user 15.31system 8:58.01elapsed 322%CPU (0avgtext+0avgdata 1928944maxresident)k
+10088256inputs+8817144outputs (86major+495206minor)pagefaults 0swaps
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_1/a4774_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 23:19:58 	 about to clean a4774_0h_2
+2022-05-10 12:10:38 	 about to clean a4774_0h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_2/a4774_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 23:26:04 	 about to clean a4774_0h_3
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_0h_3/a4774_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_2/a4774_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 23:33:57 	 about to clean a4774_48h_1
+2022-05-10 12:16:48 	 about to clean a4774_0h_3
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_1/a4774_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 23:41:35 	 about to clean a4774_48h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_2/a4774_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_0h_3/a4774_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-03 23:49:42 	 about to clean a4774_48h_3
+2022-05-10 12:24:43 	 about to clean a4774_48h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_48h_3/a4774_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-03 23:55:45 	 about to clean a4774_72h_1
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_1/a4774_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_1/a4774_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 00:04:16 	 about to clean a4774_72h_2
+2022-05-10 12:32:29 	 about to clean a4774_48h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4774_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4774_72h_2/a4774_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 00:13:39 	 about to clean a4775_0h_1
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_1/a4775_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_2/a4774_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 00:19:11 	 about to clean a4775_0h_2
+2022-05-10 12:40:37 	 about to clean a4774_48h_3
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_2/a4775_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_48h_3/a4774_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 00:27:53 	 about to clean a4775_0h_3
+2022-05-10 12:46:32 	 about to clean a4774_72h_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_1/a4774_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 12:55:06 	 about to clean a4774_72h_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4774_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4774_72h_2/a4774_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 13:04:35 	 about to clean a4775_0h_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_1/a4775_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 13:10:06 	 about to clean a4775_0h_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_2/a4775_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 13:19:04 	 about to clean a4775_0h_3
 
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -334,10 +334,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 29199326 Both Surviving: 28656703 (98.14%) Forward Only Surviving: 363714 (1.25%) Reverse Only Surviving: 153669 (0.53%) Dropped: 25240 (0.09%)
 TrimmomaticPE: Completed successfully
-1465.00user 11.69system 7:30.33elapsed 327%CPU (0avgtext+0avgdata 1705556maxresident)k
-8727752inputs+7625944outputs (64major+431091minor)pagefaults 0swaps
+1496.73user 13.00system 7:38.79elapsed 329%CPU (0avgtext+0avgdata 2162296maxresident)k
+8727752inputs+7626016outputs (68major+562415minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -346,10 +346,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 25523840 Both Surviving: 24898608 (97.55%) Forward Only Surviving: 431653 (1.69%) Reverse Only Surviving: 148347 (0.58%) Dropped: 45232 (0.18%)
 TrimmomaticPE: Completed successfully
-1263.51user 10.67system 6:42.44elapsed 316%CPU (0avgtext+0avgdata 2448936maxresident)k
-7118984inputs+6692968outputs (60major+630749minor)pagefaults 0swaps
+1289.78user 11.87system 6:46.43elapsed 320%CPU (0avgtext+0avgdata 1993456maxresident)k
+7689512inputs+6692976outputs (60major+519739minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -358,10 +358,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 31840785 Both Surviving: 31095934 (97.66%) Forward Only Surviving: 512914 (1.61%) Reverse Only Surviving: 180274 (0.57%) Dropped: 51663 (0.16%)
 TrimmomaticPE: Completed successfully
-1617.24user 12.36system 8:18.33elapsed 327%CPU (0avgtext+0avgdata 1734752maxresident)k
-9566240inputs+8353784outputs (76major+441281minor)pagefaults 0swaps
+1640.97user 14.12system 8:26.89elapsed 326%CPU (0avgtext+0avgdata 1974280maxresident)k
+9576384inputs+8353808outputs (76major+503394minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -370,10 +370,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 30993150 Both Surviving: 30269909 (97.67%) Forward Only Surviving: 493531 (1.59%) Reverse Only Surviving: 180877 (0.58%) Dropped: 48833 (0.16%)
 TrimmomaticPE: Completed successfully
-1571.43user 12.82system 8:04.52elapsed 326%CPU (0avgtext+0avgdata 1808140maxresident)k
-9262264inputs+8079608outputs (76major+462713minor)pagefaults 0swaps
+1606.80user 15.03system 8:13.82elapsed 328%CPU (0avgtext+0avgdata 2120728maxresident)k
+9262264inputs+8079568outputs (72major+549541minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -382,10 +382,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 36130315 Both Surviving: 35178481 (97.37%) Forward Only Surviving: 684858 (1.90%) Reverse Only Surviving: 209369 (0.58%) Dropped: 57607 (0.16%)
 TrimmomaticPE: Completed successfully
-1784.10user 14.44system 9:22.93elapsed 319%CPU (0avgtext+0avgdata 2024668maxresident)k
-10835712inputs+9445944outputs (84major+512865minor)pagefaults 0swaps
+1904.98user 16.48system 9:45.71elapsed 328%CPU (0avgtext+0avgdata 1722680maxresident)k
+10882432inputs+9445944outputs (85major+438699minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -394,10 +394,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 33785908 Both Surviving: 32955070 (97.54%) Forward Only Surviving: 581469 (1.72%) Reverse Only Surviving: 195265 (0.58%) Dropped: 54104 (0.16%)
 TrimmomaticPE: Completed successfully
-1672.46user 13.80system 8:58.09elapsed 313%CPU (0avgtext+0avgdata 2193440maxresident)k
-10205144inputs+8868648outputs (76major+567998minor)pagefaults 0swaps
+1759.62user 15.36system 9:00.49elapsed 328%CPU (0avgtext+0avgdata 2082516maxresident)k
+10205144inputs+8868648outputs (76major+528986minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -406,10 +406,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 25104467 Both Surviving: 24464077 (97.45%) Forward Only Surviving: 455462 (1.81%) Reverse Only Surviving: 142966 (0.57%) Dropped: 41962 (0.17%)
 TrimmomaticPE: Completed successfully
-1334.18user 10.59system 6:47.50elapsed 330%CPU (0avgtext+0avgdata 1838000maxresident)k
-7621728inputs+6608880outputs (60major+463447minor)pagefaults 0swaps
+1298.65user 11.86system 6:48.25elapsed 321%CPU (0avgtext+0avgdata 1931168maxresident)k
+7621728inputs+6608880outputs (60major+491921minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -418,10 +418,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 23630708 Both Surviving: 23093533 (97.73%) Forward Only Surviving: 383099 (1.62%) Reverse Only Surviving: 120778 (0.51%) Dropped: 33298 (0.14%)
 TrimmomaticPE: Completed successfully
-1198.35user 9.14system 6:11.03elapsed 325%CPU (0avgtext+0avgdata 1642780maxresident)k
-7103168inputs+6192896outputs (56major+435273minor)pagefaults 0swaps
+1206.58user 10.67system 6:13.83elapsed 325%CPU (0avgtext+0avgdata 2201788maxresident)k
+7103168inputs+6192888outputs (56major+557027minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -430,10 +430,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 27206675 Both Surviving: 26599416 (97.77%) Forward Only Surviving: 407343 (1.50%) Reverse Only Surviving: 160579 (0.59%) Dropped: 39337 (0.14%)
 TrimmomaticPE: Completed successfully
-1345.34user 11.45system 7:02.30elapsed 321%CPU (0avgtext+0avgdata 1918328maxresident)k
-8060224inputs+7068928outputs (64major+497472minor)pagefaults 0swaps
+1395.51user 12.08system 7:06.93elapsed 329%CPU (0avgtext+0avgdata 2065936maxresident)k
+8108208inputs+7068872outputs (61major+539101minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -442,60 +442,60 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 27162697 Both Surviving: 26508599 (97.59%) Forward Only Surviving: 455521 (1.68%) Reverse Only Surviving: 155071 (0.57%) Dropped: 43506 (0.16%)
 TrimmomaticPE: Completed successfully
-1339.24user 11.16system 7:00.17elapsed 321%CPU (0avgtext+0avgdata 1754076maxresident)k
-8133568inputs+7078320outputs (64major+454670minor)pagefaults 0swaps
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_0h_3/a4775_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+1379.19user 11.84system 7:09.39elapsed 323%CPU (0avgtext+0avgdata 2226752maxresident)k
+8133568inputs+7078320outputs (64major+586000minor)pagefaults 0swaps
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_0h_3/a4775_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 00:35:24 	 about to clean a4775_48h_1
+2022-05-10 13:26:43 	 about to clean a4775_48h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_1/a4775_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 00:42:06 	 about to clean a4775_48h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_2/a4775_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_1/a4775_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 00:50:25 	 about to clean a4775_48h_3
+2022-05-10 13:33:30 	 about to clean a4775_48h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_48h_3/a4775_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 00:58:29 	 about to clean a4775_72h_1
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_1/a4775_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_2/a4775_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 01:07:52 	 about to clean a4775_72h_2
+2022-05-10 13:41:56 	 about to clean a4775_48h_3
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_2/a4775_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 01:16:50 	 about to clean a4775_72h_3
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4775_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4775_72h_3/a4775_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_48h_3/a4775_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 01:23:38 	 about to clean a4776_0h_1
+2022-05-10 13:50:10 	 about to clean a4775_72h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_1/a4776_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 01:29:49 	 about to clean a4776_0h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_2/a4776_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_1/a4775_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 01:36:51 	 about to clean a4776_0h_3
+2022-05-10 13:59:56 	 about to clean a4775_72h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_0h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_0h_3/a4776_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_2/a4775_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 01:43:51 	 about to clean a4776_48h_1
+2022-05-10 14:08:56 	 about to clean a4775_72h_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4775_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4775_72h_3/a4775_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 14:15:45 	 about to clean a4776_0h_1
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_1/a4776_0h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 14:21:59 	 about to clean a4776_0h_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_2/a4776_0h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 14:29:05 	 about to clean a4776_0h_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_0h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_0h_3/a4776_0h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 14:36:15 	 about to clean a4776_48h_1
 
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -504,10 +504,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 32849039 Both Surviving: 32043168 (97.55%) Forward Only Surviving: 571397 (1.74%) Reverse Only Surviving: 183300 (0.56%) Dropped: 51174 (0.16%)
 TrimmomaticPE: Completed successfully
-1649.18user 13.60system 8:34.16elapsed 323%CPU (0avgtext+0avgdata 1869284maxresident)k
-9931232inputs+8621512outputs (72major+479608minor)pagefaults 0swaps
+1683.40user 14.82system 8:48.04elapsed 321%CPU (0avgtext+0avgdata 2030928maxresident)k
+9931232inputs+8621584outputs (76major+513404minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -516,10 +516,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 36579779 Both Surviving: 35521886 (97.11%) Forward Only Surviving: 791754 (2.16%) Reverse Only Surviving: 197414 (0.54%) Dropped: 68725 (0.19%)
 TrimmomaticPE: Completed successfully
-1827.49user 15.15system 9:41.07elapsed 317%CPU (0avgtext+0avgdata 2056780maxresident)k
-11164240inputs+9657792outputs (80major+526566minor)pagefaults 0swaps
+1893.49user 16.85system 10:01.92elapsed 317%CPU (0avgtext+0avgdata 1699816maxresident)k
+11164240inputs+9657912outputs (88major+435878minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -528,10 +528,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 27235630 Both Surviving: 26425165 (97.02%) Forward Only Surviving: 619783 (2.28%) Reverse Only Surviving: 142051 (0.52%) Dropped: 48631 (0.18%)
 TrimmomaticPE: Completed successfully
-1402.50user 11.31system 7:15.36elapsed 324%CPU (0avgtext+0avgdata 1577340maxresident)k
-8357072inputs+7221048outputs (64major+400151minor)pagefaults 0swaps
+1445.60user 13.09system 7:29.41elapsed 324%CPU (0avgtext+0avgdata 1588096maxresident)k
+8357072inputs+7221120outputs (68major+401300minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -540,10 +540,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 25100836 Both Surviving: 24475695 (97.51%) Forward Only Surviving: 442853 (1.76%) Reverse Only Surviving: 144789 (0.58%) Dropped: 37499 (0.15%)
 TrimmomaticPE: Completed successfully
-1273.70user 10.51system 6:30.90elapsed 328%CPU (0avgtext+0avgdata 1543732maxresident)k
-7580360inputs+6578352outputs (56major+393198minor)pagefaults 0swaps
+1364.89user 13.55system 6:59.19elapsed 328%CPU (0avgtext+0avgdata 2145164maxresident)k
+7580360inputs+6578416outputs (62major+542799minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -552,10 +552,10 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 28624675 Both Surviving: 28072396 (98.07%) Forward Only Surviving: 374051 (1.31%) Reverse Only Surviving: 154477 (0.54%) Dropped: 23751 (0.08%)
 TrimmomaticPE: Completed successfully
-1433.35user 11.67system 7:21.54elapsed 327%CPU (0avgtext+0avgdata 1920104maxresident)k
-8523952inputs+7451672outputs (64major+487799minor)pagefaults 0swaps
+1473.03user 13.96system 7:34.88elapsed 326%CPU (0avgtext+0avgdata 1930092maxresident)k
+8523952inputs+7451736outputs (68major+489455minor)pagefaults 0swaps
 TrimmomaticPE: Started with arguments:
- -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+ -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
@@ -564,33 +564,33 @@ Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Read Pairs: 23158714 Both Surviving: 22319305 (96.38%) Forward Only Surviving: 669282 (2.89%) Reverse Only Surviving: 116116 (0.50%) Dropped: 54011 (0.23%)
 TrimmomaticPE: Completed successfully
-1152.49user 9.90system 6:12.96elapsed 311%CPU (0avgtext+0avgdata 2186172maxresident)k
-7140752inputs+6161040outputs (56major+553543minor)pagefaults 0swaps
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_1/a4776_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+1191.70user 11.39system 6:25.55elapsed 312%CPU (0avgtext+0avgdata 2648368maxresident)k
+7178856inputs+6161120outputs (61major+668640minor)pagefaults 0swaps
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_1/a4776_48h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 01:52:25 	 about to clean a4776_48h_2
+2022-05-10 14:45:03 	 about to clean a4776_48h_2
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_2/a4776_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 02:02:06 	 about to clean a4776_48h_3
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_48h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_48h_3/a4776_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_2/a4776_48h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 02:09:22 	 about to clean a4776_72h_1
+2022-05-10 14:55:05 	 about to clean a4776_48h_3
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_1_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_1_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_1/a4776_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
-
-2022-05-04 02:15:53 	 about to clean a4776_72h_2
-
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_2_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_2_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_2/a4776_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_48h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_48h_3/a4776_48h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
-2022-05-04 02:23:14 	 about to clean a4776_72h_3
+2022-05-10 15:02:34 	 about to clean a4776_72h_1
 
-time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_3_1.fq.gz /home/adrian/projects/romain_nova/data/rawdata/a4776_72h_3_2.fq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R1_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R1_garbage.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R2_clean.fastq.gz /home/adrian/projects/romain_nova/data/clean_data/a4776_72h_3/a4776_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_1_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_1_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_1/a4776_72h_1_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 15:09:33 	 about to clean a4776_72h_2
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_2_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_2_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_2/a4776_72h_2_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+
+2022-05-10 15:17:08 	 about to clean a4776_72h_3
+
+time java -jar /home/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 20 -phred33 /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_3_1.fq.gz /home/adrian/projects/reynisfjara/data/raw_fastq/a4776_72h_3_2.fq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R1_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R1_garbage.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R2_clean.fastq.gz /home/adrian/projects/reynisfjara/data/clean_fastq/a4776_72h_3/a4776_72h_3_R2_garbage.fastq.gz ILLUMINACLIP:/home/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 
 
