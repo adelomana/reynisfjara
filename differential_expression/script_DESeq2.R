@@ -5,123 +5,124 @@
 #   install.packages("BiocManager")
 # BiocManager::install()
 # 
-# setRepositories(ind=c(1:6))
-# 
-# BiocManager::install("biomaRt")
-# 
-# BiocManager::install("rhdf5")
-# BiocManager::install("devtools")
-# devtools::install_github("pachterlab/sleuth")
+# BiocManager::install("DESeq2")
 
+#
+# 0. load libraries
+#
 library(biomaRt)
-library(sleuth)
+library(tximport)
+library(DESeq2)
+library(BiocParallel)
+library(crayon) # so the messages are blue
+ 
+#
+# 1. user defined variables
+#
+register(MulticoreParam(20))
 
-#
-# 0. user-defined variables
-#
 setwd("~/scratch/")
+
 kallisto_dir = "/home/adrian/projects/reynisfjara/results/kallisto/kallisto.100"
-metadata_file = "/home/adrian/projects/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
-results_dir = '/home/adrian/projects/reynisfjara/results/DEGs_sleuth'
+metadata_file = "/home/adrian/projects/reynisfjara/metadata/reynisfjara_project_metadata - Sheet1.tsv"
+results_dir = '/home/adrian/projects/reynisfjara/results/DEGs_DESeq2/'
 
 #
-# 1. generate gene to transcript mapping
+# 2. generate gene to transcript mapping
 #
 
 # annotation defined from sleuth walkthrough
 mart <- biomaRt::useMart(biomart = "ENSEMBL_MART_ENSEMBL",
                          dataset = "mmusculus_gene_ensembl",
                          host = 'https://www.ensembl.org')
-t2g <- biomaRt::getBM(attributes = c("ensembl_transcript_id", "ensembl_gene_id",
-                                     "external_gene_name"), mart = mart)
-t2g <- dplyr::rename(t2g, target_id = ensembl_transcript_id,
-                     ens_gene = ensembl_gene_id, ext_gene = external_gene_name)
+t2g <- biomaRt::getBM(attributes = c("ensembl_transcript_id", 
+                                     "ensembl_gene_id",
+                                     "gene_biotype", 
+                                     "description", 
+                                     "external_gene_name"), 
+                      mart = mart)
+t2g <- dplyr::rename(t2g, 
+                     target_id = ensembl_transcript_id,
+                     ens_gene = ensembl_gene_id, 
+                     ext_gene = external_gene_name)
 View(t2g)
 
-### annotation defined by ALO
-# working_atributes = c("ensembl_transcript_id", "ensembl_gene_id", "external_gene_name")
-# ensembl96 = useEnsembl(biomart="genes", dataset="hsapiens_gene_ensembl", version=96)
-# t2g = getBM(attributes=working_atributes, mart=ensembl96)
-# t2g = dplyr::rename(t2g, target_id = ensembl_transcript_id, ens_gene = ensembl_gene_id, ext_gene = external_gene_name)
-# dim(t2g)
-# View(t2g)
-
 #
-# 2. read metadata
+# 3. read metadata
 #
 metadata = read.table(metadata_file, sep='\t', header=TRUE)
 View(metadata)
 
 #
-# 3. work on a full model
-#
-
-# define the metadata table
-s2c = metadata
-paths = file.path(kallisto_dir, s2c$sample, "abundance.h5")
-s2c$path = paths
-View(s2c)
-
-# prepare object for sleuth
-so = sleuth_prep(s2c, target_mapping=t2g, aggregation_column='ens_gene')
-
-# build full and partial models
-so <- sleuth_fit(so, ~genotype, 'reduced')
-so <- sleuth_fit(so, ~genotype + time, 'full')
-so <- sleuth_lrt(so, 'reduced', 'full')
-
-# tables
-sleuth_table_gene <- sleuth_results(so, 'reduced:full', 'lrt', show_all = FALSE)
-sleuth_table_gene <- dplyr::filter(sleuth_table_gene, qval <= 0.05)
-print(dim(sleuth_table_gene))
-head(sleuth_table_gene, 20)
-write.csv(sleuth_table_gene, file.path(results_dir, paste('complex', '.csv', sep='')))
-
-#
-# 4. work with smaller contrasts
+# 4. hypothesis testing
 #
 mice = unique(metadata$mouse)
-induction_times = c(48, 72)
+mouse = mice[1]
 
-for (mice_index in 1:length(mice)) {
-  for (time_index in 1:length(induction_times)) {
-    
-    working_mice = mice[mice_index]
-    working_time = induction_times[time_index]
-
-    s2c = metadata[which(metadata$mouse == working_mice & (metadata$time == 0 | metadata$time == working_time)), ]
-    paths = file.path(kallisto_dir, s2c$sample, "abundance.h5")
-    s2c$path = paths
-    View(s2c)
-    
-    so <- sleuth_prep(s2c, extra_bootstrap_summary = TRUE)
-    so <- sleuth_fit(so, ~time, 'full')
-    so <- sleuth_fit(so, ~1, 'reduced')
-    so <- sleuth_lrt(so, 'reduced', 'full')
-    
-    sleuth_table <- sleuth_results(so, 'reduced:full', 'lrt', show_all = FALSE)
-    sleuth_table <- dplyr::filter(sleuth_table, qval <= 0.05)
-    print(dim(sleuth_table))
-    head(sleuth_table, 20)
-    write.csv(sleuth_table, file.path(results_dir, paste(paste(working_mice, working_time, sep='.'), '.csv', sep='')))
-    
+for (mouse in mice){
+  cat(blue(mouse))
+  
+  # f.1. slice metadata
+  working_metadata = metadata[metadata$mouse == mouse, ]
+  working_metadata$time_factor = paste(as.factor(working_metadata$time), 'h', sep='')
+  View(working_metadata)
+  
+  # f.2. define files
+  files = file.path(kallisto_dir, working_metadata$sample, "abundance.h5")
+  cat(blue('files'), fill=TRUE)
+  print(files)
+  
+  # f.3. read files
+  txi = tximport(files, type="kallisto", tx2gene=t2g, ignoreTxVersion=TRUE)
+  dds = DESeqDataSetFromTximport(txi, colData=working_metadata, design=~time_factor) 
+  cat(blue(paste('original dimensions', dim(dds)[1], dim(dds)[2])), fill=TRUE)
+  
+  # f.4. preliminary filter on poorly detected genes
+  threshold = 10
+  keep = rowMaxs(counts(dds)) >= threshold
+  dds = dds[keep, ]
+  cat(blue(paste('dimensions of filtered transcripts', dim(dds)[1], dim(dds)[2])), fill=TRUE)
+  
+  # f.5. run the model over variable time, actually "time_factor"
+  dds = DESeq(dds, test="LRT", reduced=~1)
+  
+  # f.6. store original results
+  res = results(dds, parallel=TRUE) 
+  filt1 = res[which(res$pvalue < 0.05), ]
+  filt2 = filt1[which(filt1$padj < 0.1), ]
+  cat(blue(paste('DEGs found', dim(filt2)[1], sep=' ')), fill=TRUE)
+  write.table(filt2, file=paste(results_dir, 'unformatted/unformatted_results_', mouse, '.tsv', sep=''), quote=FALSE, sep='\t')
+  
+  # store formatted results
+  df = as.data.frame(filt2)
+  df['common'] = rownames(df)
+  
+  annotation_table = t2g
+  annotation_table['common'] = annotation_table$ens_gene
+  annotation_table_unique = annotation_table[!duplicated(annotation_table$common), ]
+  dn = merge(df, annotation_table_unique, by='common')
+  # check for not missing DEGs because of annotation
+  if (dim(df)[1] != dim(dn)[1]){
+    print('ERROR: DEG missed on annotation step')
+    stop()
   }
+  
+  up = dn[dn$log2FoldChange > 1, ]
+  down = dn[dn$log2FoldChange < -1, ]
+  
+  cat(blue(paste('DEGs after log2FC > 1 are ', dim(up)[1], sep='')), fill=TRUE)
+  cat(blue(paste('DEGs after log2FC < -1 are ', dim(down)[1], sep='')), fill=TRUE)
+  
+  sorted_up = up[order(up$log2FoldChange, decreasing=TRUE), ]
+  sorted_down = down[order(down$log2FoldChange), ]
+  
+  store = paste(results_dir, mouse, '_up', '.tsv', sep='')
+  write.table(sorted_up, file=store, quote=FALSE, sep='\t', row.names=FALSE)
+  store = paste(results_dir, mouse, '_down', '.tsv', sep='')
+  write.table(sorted_down, file=store, quote=FALSE, sep='\t', row.names=FALSE)
+  
+  cat(blue('---'), fill=TRUE)
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

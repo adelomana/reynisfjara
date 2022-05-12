@@ -21,13 +21,14 @@ library(sleuth)
 # 0. user-defined variables
 #
 setwd("~/scratch/")
+
 kallisto_dir = "/home/adrian/projects/reynisfjara/results/kallisto/kallisto.100"
 metadata_file = "/home/adrian/projects/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
 results_dir = '/home/adrian/projects/reynisfjara/results/DEGs_sleuth'
 
-kallisto_dir = "/Users/adrian/gd15/tmp/kallisto.100"
-metadata_file = "/Users/adrian/gd15/hi/research/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
-results_dir = '/Users/adrian/gd15/hi/research/reynisfjara/results/sleuth'
+#kallisto_dir = "/Users/adrian/gd15/tmp/kallisto.100"
+#metadata_file = "/Users/adrian/gd15/hi/research/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
+#results_dir = '/Users/adrian/gd15/hi/research/reynisfjara/results/sleuth'
 
 #
 # 1. generate gene to transcript mapping

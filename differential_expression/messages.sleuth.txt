@@ -1,7 +1,6 @@
-
-R version 4.1.2 (2021-11-01) -- "Bird Hippie"
-Copyright (C) 2021 The R Foundation for Statistical Computing
-Platform: aarch64-apple-darwin20 (64-bit)
+R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -40,13 +39,14 @@ Type 'q()' to quit R.
 > # 0. user-defined variables
 > #
 > setwd("~/scratch/")
+>
 > kallisto_dir = "/home/adrian/projects/reynisfjara/results/kallisto/kallisto.100"
 > metadata_file = "/home/adrian/projects/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
 > results_dir = '/home/adrian/projects/reynisfjara/results/DEGs_sleuth'
 >
-> kallisto_dir = "/Users/adrian/gd15/tmp/kallisto.100"
-> metadata_file = "/Users/adrian/gd15/hi/research/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
-> results_dir = '/Users/adrian/gd15/hi/research/reynisfjara/results/sleuth'
+> #kallisto_dir = "/Users/adrian/gd15/tmp/kallisto.100"
+> #metadata_file = "/Users/adrian/gd15/hi/research/reynisfjara/metadata/reynisfjara_project_metadata\ -\ Sheet1.tsv"
+> #results_dir = '/Users/adrian/gd15/hi/research/reynisfjara/results/sleuth'
 >
 > #
 > # 1. generate gene to transcript mapping
@@ -126,22 +126,22 @@ Type 'q()' to quit R.
 7 a3922_72h_1       wt   72         1 a3922
 8 a3922_72h_2       wt   72         2 a3922
 9 a3922_72h_3       wt   72         3 a3922
-                                                          path
-1  /Users/adrian/gd15/tmp/kallisto.100/a3922_0h_1/abundance.h5
-2  /Users/adrian/gd15/tmp/kallisto.100/a3922_0h_2/abundance.h5
-3  /Users/adrian/gd15/tmp/kallisto.100/a3922_0h_3/abundance.h5
-4 /Users/adrian/gd15/tmp/kallisto.100/a3922_48h_1/abundance.h5
-5 /Users/adrian/gd15/tmp/kallisto.100/a3922_48h_2/abundance.h5
-6 /Users/adrian/gd15/tmp/kallisto.100/a3922_48h_3/abundance.h5
-7 /Users/adrian/gd15/tmp/kallisto.100/a3922_72h_1/abundance.h5
-8 /Users/adrian/gd15/tmp/kallisto.100/a3922_72h_2/abundance.h5
-9 /Users/adrian/gd15/tmp/kallisto.100/a3922_72h_3/abundance.h5
+                                                                                      path
+1  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_0h_1/abundance.h5
+2  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_0h_2/abundance.h5
+3  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_0h_3/abundance.h5
+4 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_48h_1/abundance.h5
+5 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_48h_2/abundance.h5
+6 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_48h_3/abundance.h5
+7 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_72h_1/abundance.h5
+8 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_72h_2/abundance.h5
+9 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a3922_72h_3/abundance.h5
 [1] "preparing sleuth object..."
 reading in kallisto results
 dropping unused factor levels
 .........
 normalizing est_counts
-41606 targets passed the filter
+41607 targets passed the filter
 normalizing tpm
 merging in metadata
 summarizing bootstraps
@@ -154,29 +154,29 @@ fitting measurement error models
 shrinkage estimation
 computing variance of betas
 [1] "Wald testing..."
-[1] 4874    6
+[1] 4875    6
 [1] "LRT testing..."
 [1] 6008    6
 [1] "storing..."
 [1] "a4774"
-        sample  genotype time replicate mouse
-10  a4774_0h_1 inducible    0         1 a4774
-11  a4774_0h_2 inducible    0         2 a4774
-12  a4774_0h_3 inducible    0         3 a4774
-13 a4774_48h_1 inducible   48         1 a4774
-14 a4774_48h_2 inducible   48         2 a4774
-15 a4774_48h_3 inducible   48         3 a4774
-16 a4774_72h_1 inducible   72         1 a4774
-17 a4774_72h_2 inducible   72         2 a4774
-                                                           path
-10  /Users/adrian/gd15/tmp/kallisto.100/a4774_0h_1/abundance.h5
-11  /Users/adrian/gd15/tmp/kallisto.100/a4774_0h_2/abundance.h5
-12  /Users/adrian/gd15/tmp/kallisto.100/a4774_0h_3/abundance.h5
-13 /Users/adrian/gd15/tmp/kallisto.100/a4774_48h_1/abundance.h5
-14 /Users/adrian/gd15/tmp/kallisto.100/a4774_48h_2/abundance.h5
-15 /Users/adrian/gd15/tmp/kallisto.100/a4774_48h_3/abundance.h5
-16 /Users/adrian/gd15/tmp/kallisto.100/a4774_72h_1/abundance.h5
-17 /Users/adrian/gd15/tmp/kallisto.100/a4774_72h_2/abundance.h5
+        sample genotype time replicate mouse
+10  a4774_0h_1       mu    0         1 a4774
+11  a4774_0h_2       mu    0         2 a4774
+12  a4774_0h_3       mu    0         3 a4774
+13 a4774_48h_1       mu   48         1 a4774
+14 a4774_48h_2       mu   48         2 a4774
+15 a4774_48h_3       mu   48         3 a4774
+16 a4774_72h_1       mu   72         1 a4774
+17 a4774_72h_2       mu   72         2 a4774
+                                                                                       path
+10  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_0h_1/abundance.h5
+11  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_0h_2/abundance.h5
+12  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_0h_3/abundance.h5
+13 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_48h_1/abundance.h5
+14 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_48h_2/abundance.h5
+15 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_48h_3/abundance.h5
+16 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_72h_1/abundance.h5
+17 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4774_72h_2/abundance.h5
 [1] "preparing sleuth object..."
 reading in kallisto results
 dropping unused factor levels
@@ -201,31 +201,31 @@ The LOESS fit will be repeated using exact computation of the fitted surface to 
 These are the target ids with NA values: ENSMUST00000111318.7, ENSMUST00000159996.7, ENSMUST00000200518.1, ENSMUST00000206377.1, ENSMUST00000208018.1, ENSMUST00000213296.1, ENSMUST00000022725.3, ENSMUST00000054125.8
 computing variance of betas
 [1] "Wald testing..."
-[1] 3091    6
+[1] 3093    6
 [1] "LRT testing..."
 [1] 3124    6
 [1] "storing..."
 [1] "a4775"
-        sample  genotype time replicate mouse
-18  a4775_0h_1 inducible    0         1 a4775
-19  a4775_0h_2 inducible    0         2 a4775
-20  a4775_0h_3 inducible    0         3 a4775
-21 a4775_48h_1 inducible   48         1 a4775
-22 a4775_48h_2 inducible   48         2 a4775
-23 a4775_48h_3 inducible   48         3 a4775
-24 a4775_72h_1 inducible   72         1 a4775
-25 a4775_72h_2 inducible   72         2 a4775
-26 a4775_72h_3 inducible   72         3 a4775
-                                                           path
-18  /Users/adrian/gd15/tmp/kallisto.100/a4775_0h_1/abundance.h5
-19  /Users/adrian/gd15/tmp/kallisto.100/a4775_0h_2/abundance.h5
-20  /Users/adrian/gd15/tmp/kallisto.100/a4775_0h_3/abundance.h5
-21 /Users/adrian/gd15/tmp/kallisto.100/a4775_48h_1/abundance.h5
-22 /Users/adrian/gd15/tmp/kallisto.100/a4775_48h_2/abundance.h5
-23 /Users/adrian/gd15/tmp/kallisto.100/a4775_48h_3/abundance.h5
-24 /Users/adrian/gd15/tmp/kallisto.100/a4775_72h_1/abundance.h5
-25 /Users/adrian/gd15/tmp/kallisto.100/a4775_72h_2/abundance.h5
-26 /Users/adrian/gd15/tmp/kallisto.100/a4775_72h_3/abundance.h5
+        sample genotype time replicate mouse
+18  a4775_0h_1       mu    0         1 a4775
+19  a4775_0h_2       mu    0         2 a4775
+20  a4775_0h_3       mu    0         3 a4775
+21 a4775_48h_1       mu   48         1 a4775
+22 a4775_48h_2       mu   48         2 a4775
+23 a4775_48h_3       mu   48         3 a4775
+24 a4775_72h_1       mu   72         1 a4775
+25 a4775_72h_2       mu   72         2 a4775
+26 a4775_72h_3       mu   72         3 a4775
+                                                                                       path
+18  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_0h_1/abundance.h5
+19  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_0h_2/abundance.h5
+20  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_0h_3/abundance.h5
+21 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_48h_1/abundance.h5
+22 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_48h_2/abundance.h5
+23 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_48h_3/abundance.h5
+24 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_72h_1/abundance.h5
+25 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_72h_2/abundance.h5
+26 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4775_72h_3/abundance.h5
 [1] "preparing sleuth object..."
 reading in kallisto results
 dropping unused factor levels
@@ -247,31 +247,31 @@ fitting measurement error models
 shrinkage estimation
 computing variance of betas
 [1] "Wald testing..."
-[1] 5396    6
+[1] 5399    6
 [1] "LRT testing..."
-[1] 7288    6
+[1] 7285    6
 [1] "storing..."
 [1] "a4776"
-        sample  genotype time replicate mouse
-27  a4776_0h_1 inducible    0         1 a4776
-28  a4776_0h_2 inducible    0         2 a4776
-29  a4776_0h_3 inducible    0         3 a4776
-30 a4776_48h_1 inducible   48         1 a4776
-31 a4776_48h_2 inducible   48         2 a4776
-32 a4776_48h_3 inducible   48         3 a4776
-33 a4776_72h_1 inducible   72         1 a4776
-34 a4776_72h_2 inducible   72         2 a4776
-35 a4776_72h_3 inducible   72         3 a4776
-                                                           path
-27  /Users/adrian/gd15/tmp/kallisto.100/a4776_0h_1/abundance.h5
-28  /Users/adrian/gd15/tmp/kallisto.100/a4776_0h_2/abundance.h5
-29  /Users/adrian/gd15/tmp/kallisto.100/a4776_0h_3/abundance.h5
-30 /Users/adrian/gd15/tmp/kallisto.100/a4776_48h_1/abundance.h5
-31 /Users/adrian/gd15/tmp/kallisto.100/a4776_48h_2/abundance.h5
-32 /Users/adrian/gd15/tmp/kallisto.100/a4776_48h_3/abundance.h5
-33 /Users/adrian/gd15/tmp/kallisto.100/a4776_72h_1/abundance.h5
-34 /Users/adrian/gd15/tmp/kallisto.100/a4776_72h_2/abundance.h5
-35 /Users/adrian/gd15/tmp/kallisto.100/a4776_72h_3/abundance.h5
+        sample genotype time replicate mouse
+27  a4776_0h_1       mu    0         1 a4776
+28  a4776_0h_2       mu    0         2 a4776
+29  a4776_0h_3       mu    0         3 a4776
+30 a4776_48h_1       mu   48         1 a4776
+31 a4776_48h_2       mu   48         2 a4776
+32 a4776_48h_3       mu   48         3 a4776
+33 a4776_72h_1       mu   72         1 a4776
+34 a4776_72h_2       mu   72         2 a4776
+35 a4776_72h_3       mu   72         3 a4776
+                                                                                       path
+27  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_0h_1/abundance.h5
+28  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_0h_2/abundance.h5
+29  /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_0h_3/abundance.h5
+30 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_48h_1/abundance.h5
+31 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_48h_2/abundance.h5
+32 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_48h_3/abundance.h5
+33 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_72h_1/abundance.h5
+34 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_72h_2/abundance.h5
+35 /home/adrian/projects/reynisfjara/results/kallisto/kallisto.100/a4776_72h_3/abundance.h5
 [1] "preparing sleuth object..."
 reading in kallisto results
 dropping unused factor levels
@@ -293,7 +293,7 @@ fitting measurement error models
 shrinkage estimation
 computing variance of betas
 [1] "Wald testing..."
-[1] 6413    6
+[1] 6415    6
 [1] "LRT testing..."
 [1] 8512    6
 [1] "storing..."
@@ -322,3 +322,4 @@ Because of concerns with forking processes from a GUI, 'num_cores' is being set 
 If you wish to take advantage of multiple cores, please consider running sleuth from the command line.
 8: In check_target_mapping(tmp_names, target_mapping, !is.null(aggregation_column)) :
   intersection between target_id from kallisto runs and the target_mapping is empty. attempted to fix problem by removing .N from target_id, then merging back into target_mapping. please check obj$target_mapping to ensure this new mapping is correct.
+> 
