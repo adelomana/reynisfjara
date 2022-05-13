@@ -53,7 +53,8 @@ View(metadata)
 #
 # 3. work on different contrasts
 #
-comparisons = unique(metadata$mouse)
+comparisons = unique(metadata$mouse)[1]
+
 
 for (comparison in comparisons){
   print(comparison)
@@ -78,7 +79,7 @@ for (comparison in comparisons){
   so = sleuth_fit(so, ~1, 'reduced')
   
   # Wald test
-  print('Wald testing...')
+  cat(blue('Wald testing...'), fill=TRUE)
   wald = sleuth_wt(so, which_beta='time')
   wald_table = sleuth_results(wald, test='time', test_type='wt', show_all=FALSE, pval_aggregate=TRUE)
   wald_table = dplyr::filter(wald_table, qval <= 0.05)
