@@ -242,6 +242,10 @@ for (mouse in mice[2:4]){ # 2:4 refers to the three mutants
   filt2 = filt1[which(filt1$padj < 0.1), ]
   filt3 = filt2[which(abs(filt2$log2FoldChange) > 1), ]
   
+  #cat(blue(paste('Stard13 located in filt2 in position', which(rownames(filt2) %in% 'ENSMUSG00000016128'), sep=' ')), fill=TRUE)
+  #cat(blue(paste('Stard13 located in filt3 in position', which(rownames(filt3) %in% 'ENSMUSG00000016128'), sep=' ')), fill=TRUE)
+  print(filt2['ENSMUSG00000016128', ])
+  
   # 4.4.8. print info and save table
   print(dim(res))
   print(dim(filt1))
