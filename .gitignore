@@ -20,3 +20,5 @@ differential_expression/figure.pca.png
 05_differential_expression/reproduce_with_sleuth/.ipynb_checkpoints/
 
 *.svg
+
+06_SNPs/.ipynb_checkpoints/
